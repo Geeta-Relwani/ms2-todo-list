@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdDelete } from "react-icons/md";
-import { FaPlus } from "react-icons/fa";
+// import { FaPlus } from "react-icons/fa";
 import './App.css';
 
 function App() {
