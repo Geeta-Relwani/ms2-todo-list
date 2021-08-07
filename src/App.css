@@ -1,5 +1,104 @@
+.main-div{
+  /* display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  height: 6%;
+  border: 0.4px lightblue solid;
+  vertical-align: center;
+  margin-bottom: 0.10%; */
+
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  /* border: 0.4px lightblue solid; */
+  vertical-align: center;
+  margin-bottom: 0.5%;
+  background: rgb(205, 227, 241);
+  border-radius: 35px;
+}
+
+.input-text{
+  width: 40%;
+    padding: 10px;
+    margin-top: 22px;
+    /* border: none; */
+    font-size: 20px;
+    /* border-radius: 20px; */
+}
+
+.add-btn{
+  margin-top: 20px;
+  padding: 14px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(0, 100, 255);
+  color: #fff;
+  /* border-radius: 8px; */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(3, 45, 109);
+}
+button:active {
+  background-color: rgb(3, 45, 109);
+}
+button:focus {
+  outline: 0;
+}
+
+.input-field{
+  padding-bottom: 2%;
+  /* background-color: rgb(212, 175, 200);  */
+  /* width:50%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  /* border: black 0.5px solid; */
+}
+
+.todo-list-container{
+  width: 50%;
+}
+
+.todo-container{
+height: 5em;
+}
+
+.checkbox{
+  width: 10%;
+  height: 26px;
+}
+
+.item-number{
+  width: 10%;
+}
+
+.todo-text{
+  width: 70%;
+  text-align: left;
+}
+
+.delete-icon{
+width: 10%;
+}
+
 .App {
   text-align: center;
+  display: inline;
 }
 
 .App-logo {
